@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+appname = "clientes"
+def index(request):
+    return render(request, "index_cliete.html")
