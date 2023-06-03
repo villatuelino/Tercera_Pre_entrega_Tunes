@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
-appname = "clientes"
+appname = "cliente"
 def index(request):
-    return render(request, "index_cliete.html")
+    return render(request, "index_cliente.html")
