@@ -1,2 +1,9 @@
+
+#Ignora en entorno virtual
 .venv
 
+#Ignora la carpeta y subcarpeta de pycache
+**/__pycache__/
+
+#Ignora la base de datos
+**/db.sqlite3
